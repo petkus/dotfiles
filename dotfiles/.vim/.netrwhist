@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/home/petkus/.vim/bundle/Vundle.vim'
+let g:netrw_dirhist_2='/home/petkus/.vim'
+let g:netrw_dirhist_3='/home/petkus/Documents'
+let g:netrw_dirhist_4='/home/petkus/.vim/bundle'
+let g:netrw_dirhist_5='/home/petkus/.vim/bundle/Vundle.vim'
+let g:netrw_dirhist_6='/home/petkus/Documents/C++Learning'
+let g:netrw_dirhist_7='/home/petkus/Documents'
+let g:netrw_dirhist_8='/home/petkus/Downloads/solarized'
