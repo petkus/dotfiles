@@ -17,6 +17,7 @@ Plugin 'tpope/vim-fugitive'
 "my own code:
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'terryma/vim-smooth-scroll'
+Plugin 'Valloric/YouCompleteMe'
 " plugin from http://vim-scripts.org/vim/scripts.html
 "Plugin 'L9'
 " Git plugin not hosted on GitHub
@@ -59,7 +60,6 @@ noremap <Leader>p "+p
 noremap <silent> <c-b> :call smooth_scroll#up(&scroll*2, 10, 4)<CR>
 noremap <silent> <c-f> :call smooth_scroll#down(&scroll*2, 10, 4)<CR>
 set bg=light
-colorscheme solarized-dark
 
 set number
 " Shortcut to rapidly toggle `set list`
