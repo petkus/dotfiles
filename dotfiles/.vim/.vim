@@ -1,1 +1,0 @@
-/home/petkus/git/dotfiles/.vim
