@@ -116,3 +116,4 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+alias sage-debug='sage -python -m pudb'

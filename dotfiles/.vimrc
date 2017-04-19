@@ -15,6 +15,7 @@ Plugin 'VundleVim/Vundle.vim'
 " plugin on GitHub repo
 Plugin 'tpope/vim-fugitive'
 "my own code:
+Plugin 'lervag/vimtex'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'terryma/vim-smooth-scroll'
 Plugin 'Valloric/YouCompleteMe'
