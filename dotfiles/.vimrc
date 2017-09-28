@@ -19,6 +19,7 @@ Plugin 'lervag/vimtex'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'terryma/vim-smooth-scroll'
 Plugin 'Valloric/YouCompleteMe'
+Plugin 'w0rp/ale'
 "Plugin 'Shougo/neocomplete.vim'
 "Plugin 'Shougo/neosnippet'
 
