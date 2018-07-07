@@ -1,3 +1,4 @@
+
 syntax on
 colorscheme solarized8_dark_flat
 
@@ -14,10 +15,14 @@ noremap <Leader>y "+y
 noremap <Leader>Y "+Y
 noremap <Leader>p "+p
 syntax on
+set listchars=tab:▸\ ,eol:¬
 
 set gdefault
 
 set number
 " Shortcut to rapidly toggle `set list`
-set list
+" set list
 nmap <leader>l :set list!<CR>
+
+" Neo Complete
+let g:neocomplete#enable_at_startup = 1

@@ -1,35 +1,47 @@
+[Desktop Entry]
+DefaultProfile=
+
+[Favorite Profiles]
+Favorites=
+
+[MainWindow]
+Height 1080=489
+State=AAAA/wAAAAD9AAAAAAAAA7wAAAHLAAAABAAAAAQAAAAIAAAACPwAAAAA
+ToolBarsMovable=Disabled
+Width 1920=956
+
+[\x5b\x5bchild1]
+parent=window0
+profile=solarized-dark
+type=Terminal
+
+[\x5b\x5bwindow0]
+parent=""
+type=Window
+
+[\x5bdefault]
+background_image=None
+custom_command=TERM=xterm-256color bash -l
+use_custom_command=True
+
+[\x5bsolarized-dark]
+background_color="#002b36"
+cursor_color="#eee8d5"
+custom_command=TERM=xterm-256color bash -l
+font=Monospace 11
+foreground_color="#eee8d5"
+palette="#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
+show_titlebar=false
+use_custom_command=True
+use_system_font=false
+
+[\x5bsolarized-light]
+background_image=None
+custom_command=TERM=xterm-256color bash -l
+use_custom_command=True
+
 [global_config]
-  focus = system
-  title_inactive_bg_color = "#002931"
-  title_inactive_fg_color = "#0099ad"
-  title_transmit_bg_color = "#007e88"
-[keybindings]
-[layouts]
-  [[default]]
-    [[[child1]]]
-      parent = window0
-      profile = solarized-dark
-      type = Terminal
-    [[[window0]]]
-      parent = ""
-      type = Window
-[plugins]
-[profiles]
-  [[default]]
-    background_image = None
-    custom_command = TERM=xterm-256color bash -l
-    use_custom_command = True
-  [[solarized-light]]
-    background_image = None
-    custom_command = TERM=xterm-256color bash -l
-    use_custom_command = True
-  [[solarized-dark]]
-    palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
-    custom_command = TERM=xterm-256color bash -l
-    use_custom_command = True
-    foreground_color = "#eee8d5"
-    background_color = "#002b36"
-    cursor_color = "#eee8d5"
-    use_system_font = false
-    font = Monospace 11
-    show_titlebar = false
+focus=system
+title_inactive_bg_color="#002931"
+title_inactive_fg_color="#0099ad"
+title_transmit_bg_color="#007e88"
